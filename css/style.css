@@ -1,0 +1,76 @@
+html {
+  background-color: #dddddd;
+}
+
+/*#header img{
+  float:left;
+  margin: 30px;
+  padding: 1em;
+  image-resolution: 20px;
+}
+*/
+#header {
+    background-color: gray;
+    color: white;
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+
+#options li{
+  display: inline-block;
+  border-right-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding: 1em;
+  font-size: 1em;
+}
+
+#options li:last-child{
+    border-style:none;
+}
+#options li a{
+  color:black;
+  font-size: 1.5em;
+}
+
+#welcome {
+  background-color: black;
+  color white;
+  padding: 1em;
+  font-size: 1.5em;
+}
+
+#welcome img{
+  float: left;
+  margin: 30px;
+  padding: 1em;
+}
+
+#welcome h3{
+  color:white;
+  font-size: 1.5em;
+}
+
+#welcome ul li{
+  color:white;
+  margin: 0px;
+}
+
+
+#footer ul {
+  margin: 0px;
+  padding: 1em;
+}
+
+#footer li {
+  display: inline-block;
+  border-right-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+
+#footer li a{
+  color:black;
+  font-size: 1.5em;
+}
